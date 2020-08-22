@@ -1,0 +1,58 @@
+*{
+    cursor: default;
+}
+main{
+    background:linear-gradient(rgb(0, 81, 145), rgb(0, 60, 108) 30%);
+    min-height: 100vh;
+}
+header{
+    font-family: monospace;
+    min-height: 10vh;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFF;
+}
+h1{
+    padding: 1%;
+}
+.card ul{
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.card ul li{
+    background:linear-gradient(rgb(0, 81, 145), rgb(0, 60, 108) 30%);
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 1%;
+    color: #FFF;
+    font-weight: 600;
+    margin: 1% auto;
+    text-align: center;
+    display: block;
+    list-style: none;
+    width: 100%;
+}
+.coins-teams{
+    color: #FFC733;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: block;
+}
+.simbol-dollar{
+    font-weight: 700;
+    font-size: 20px;
+}
+.cursor{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.content-presentation-text{
+    margin: auto;
+    width: 50% !important;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ejercitos",
+  "version": "1.0.0",
+  "description": "Desarrollar equipos y que posean 1000 coins, y diversos tipos de soldados",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Tobías Nazareno Bregante",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.3",
+    "nodemon": "^2.0.4"
+  }
+}
